@@ -1,2 +1,0 @@
-# signalsdemo
-tech questions
