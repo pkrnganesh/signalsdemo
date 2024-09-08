@@ -65,28 +65,6 @@ python manage.py test_signal_transaction
 
 You'll see that changes made in the signal handler are visible within the same transaction and are committed or rolled back along with the caller's changes.
 
-## Running the Demos
-
-1. Clone this repository:
-   ```bash
-   git clone https://github.com/your-username/django-signals-demo.git
-   cd django-signals-demo
-   ```
-
-2. Set up a virtual environment and install dependencies:
-   ```bash
-   python -m venv venv
-   source venv/bin/activate  # On Windows, use `venv\Scripts\activate`
-   pip install -r requirements.txt
-   ```
-
-3. Run migrations:
-   ```bash
-   python manage.py migrate
-   ```
-
-4. Run the demo commands as described in the sections above.
-
 ## Conclusions
 
 This project demonstrates that:
